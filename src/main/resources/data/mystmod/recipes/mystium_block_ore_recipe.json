@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mystmod:mystium_block"
+    }
+  ],
+  "result": {
+    "item": "mystmod:mystium_dust",
+    "count": 9
+  }
+}

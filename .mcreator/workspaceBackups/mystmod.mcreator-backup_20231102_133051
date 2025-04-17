@@ -1,0 +1,136 @@
+{
+  "mod_elements": [
+    {
+      "name": "MystiumDust",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystium_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/dev/equestria/mysticalcraft/item/MystiumDustItem.java",
+          "src/main/resources/assets/mystmod/models/item/mystium_dust.json"
+        ]
+      }
+    },
+    {
+      "name": "MystiumOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystmod/worldgen/configured_feature/mystium_ore.json",
+          "src/main/resources/assets/mystmod/models/item/mystium_ore.json",
+          "src/main/java/dev/equestria/mysticalcraft/world/features/ores/MystiumOreFeature.java",
+          "src/main/resources/data/mystmod/forge/biome_modifier/mystium_ore_biome_modifier.json",
+          "src/main/resources/data/mystmod/worldgen/placed_feature/mystium_ore.json",
+          "src/main/java/dev/equestria/mysticalcraft/block/MystiumOreBlock.java",
+          "src/main/resources/assets/mystmod/models/block/mystium_ore.json",
+          "src/main/resources/assets/mystmod/blockstates/mystium_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "MystiumBlock",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystium_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystmod/models/item/mystium_block.json",
+          "src/main/resources/assets/mystmod/blockstates/mystium_block.json",
+          "src/main/resources/assets/mystmod/models/block/mystium_block.json",
+          "src/main/java/dev/equestria/mysticalcraft/block/MystiumBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "MystiumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystium_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystmod/recipes/mystium_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MystiumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystium_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystmod/recipes/mystium_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MystiumOreSmelting",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystium_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystmod/recipes/mystium_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "Mystmod",
+      "type": "tab",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystmod",
+      "metadata": {
+        "files": []
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item_group.mystmod.mystmod": "Mystmod",
+      "block.mystmod.mystium_ore": "Mystium Ore",
+      "item.mystmod.mystium_dust": "Mystium",
+      "block.mystmod.mystium_block": "Block of Mystium"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "mystmod",
+    "modName": "Mystmod",
+    "version": "1.0.0",
+    "author": "raindrops, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "dev.equestria.mysticalcraft",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}

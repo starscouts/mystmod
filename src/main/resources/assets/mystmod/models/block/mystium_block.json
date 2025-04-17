@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mystmod:block/mystium_ore_block",
+    "particle": "mystmod:block/mystium_ore_block"
+  },
+  "render_type": "solid"
+}

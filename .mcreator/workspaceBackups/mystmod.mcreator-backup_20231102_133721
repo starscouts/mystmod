@@ -1,0 +1,296 @@
+{
+  "mod_elements": [
+    {
+      "name": "MystiumDust",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystium_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/dev/equestria/mysticalcraft/item/MystiumDustItem.java",
+          "src/main/resources/assets/mystmod/models/item/mystium_dust.json"
+        ]
+      }
+    },
+    {
+      "name": "MystiumOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystmod/worldgen/configured_feature/mystium_ore.json",
+          "src/main/resources/assets/mystmod/models/item/mystium_ore.json",
+          "src/main/java/dev/equestria/mysticalcraft/world/features/ores/MystiumOreFeature.java",
+          "src/main/resources/data/mystmod/forge/biome_modifier/mystium_ore_biome_modifier.json",
+          "src/main/resources/data/mystmod/worldgen/placed_feature/mystium_ore.json",
+          "src/main/java/dev/equestria/mysticalcraft/block/MystiumOreBlock.java",
+          "src/main/resources/assets/mystmod/models/block/mystium_ore.json",
+          "src/main/resources/assets/mystmod/blockstates/mystium_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "MystiumBlock",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystium_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystmod/models/item/mystium_block.json",
+          "src/main/resources/assets/mystmod/blockstates/mystium_block.json",
+          "src/main/resources/assets/mystmod/models/block/mystium_block.json",
+          "src/main/java/dev/equestria/mysticalcraft/block/MystiumBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "MystiumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystium_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystmod/recipes/mystium_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MystiumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystium_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystmod/recipes/mystium_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MystiumOreSmelting",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystium_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystmod/recipes/mystium_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "Mystmod",
+      "type": "tab",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystmod",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "CaveGlass",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cave_glass",
+      "metadata": {
+        "files": [
+          "src/main/java/dev/equestria/mysticalcraft/block/CaveGlassBlock.java",
+          "src/main/resources/assets/mystmod/models/item/cave_glass.json",
+          "src/main/resources/assets/mystmod/models/block/cave_glass.json",
+          "src/main/resources/assets/mystmod/blockstates/cave_glass.json"
+        ]
+      }
+    },
+    {
+      "name": "CaveGlassCraft",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cave_glass_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystmod/recipes/cave_glass_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "MystiumPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystium_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystmod/models/item/mystium_pickaxe.json",
+          "src/main/java/dev/equestria/mysticalcraft/item/MystiumPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MystiumAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystium_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/dev/equestria/mysticalcraft/item/MystiumAxeItem.java",
+          "src/main/resources/assets/mystmod/models/item/mystium_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "MystiumSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystium_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystmod/models/item/mystium_sword.json",
+          "src/main/java/dev/equestria/mysticalcraft/item/MystiumSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MystiumShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystium_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/dev/equestria/mysticalcraft/item/MystiumShovelItem.java",
+          "src/main/resources/assets/mystmod/models/item/mystium_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "MystiumHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystium_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystmod/models/item/mystium_hoe.json",
+          "src/main/java/dev/equestria/mysticalcraft/item/MystiumHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MystiumPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystium_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystmod/recipes/mystium_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MystiumAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystium_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystmod/recipes/mystium_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MystiumSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystium_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystmod/recipes/mystium_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MystiumShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystium_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystmod/recipes/mystium_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MystiumHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystium_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystmod/recipes/mystium_hoe_recipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.mystmod.mystium_sword": "Mystium Sword",
+      "item_group.mystmod.mystmod": "Mystmod",
+      "item.mystmod.mystium_axe": "Mystium Axe",
+      "item.mystmod.mystium_hoe": "Mystium Hoe",
+      "block.mystmod.mystium_ore": "Mystium Ore",
+      "item.mystmod.mystium_dust": "Mystium",
+      "item.mystmod.mystium_shovel": "Mystium Shovel",
+      "block.mystmod.cave_glass": "Cave Glass",
+      "item.mystmod.mystium_pickaxe": "Mystium Pickaxe",
+      "block.mystmod.mystium_block": "Block of Mystium"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "mystmod",
+    "modName": "Mystmod",
+    "version": "1.0.0",
+    "author": "raindrops, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "dev.equestria.mysticalcraft",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}

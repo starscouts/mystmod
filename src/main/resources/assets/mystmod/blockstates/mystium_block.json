@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mystmod:block/mystium_block"
+    }
+  }
+}

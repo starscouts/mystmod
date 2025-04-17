@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "mystmod:item/mystium_dust"
+  }
+}

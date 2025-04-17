@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mystmod:block/cave_glass",
+    "up": "mystmod:block/cave_glass",
+    "north": "mystmod:block/cave_glass",
+    "east": "mystmod:block/cave_glass",
+    "south": "mystmod:block/cave_glass",
+    "west": "mystmod:block/cave_glass",
+    "particle": "mystmod:block/cave_glass"
+  },
+  "render_type": "cutout_mipped"
+}
